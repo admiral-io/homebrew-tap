@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>admiral-io/.github"
-  ]
+  "enabled": false,
+  "description": "Homebrew formulae are written by the release pipelines of the tools they install; Renovate has nothing to manage here."
 }
