@@ -1,6 +1,6 @@
 # Homebrew Tap for Admiral
 
-This is the official [Homebrew](https://brew.sh) tap for the [Admiral](https://admiral.io/) CLI.
+This is the official [Homebrew](https://brew.sh) tap for the [Admiral](https://admiral.io/?utm_source=github&utm_medium=referral&utm_campaign=homebrew-tap) CLI.
 
 ## Available Formulae
 
@@ -59,6 +59,12 @@ The `admiral` CLI ships with Bash, Zsh, and Fish completions, which Homebrew ins
 - **Linux packages, Docker, and standalone binaries:** see the [admiral-cli releases](https://github.com/admiral-io/admiral-cli/releases).
 
 The Admiral server is not distributed through this tap.
+
+## Getting help
+
+- A problem installing through this tap: [open an issue](https://github.com/admiral-io/homebrew-tap/issues/new/choose)
+- A bug in the CLI itself: [admiral-cli](https://github.com/admiral-io/admiral-cli/issues/new/choose)
+- Anything else about [Admiral](https://admiral.io/?utm_source=github&utm_medium=referral&utm_campaign=homebrew-tap): [admiral-community](https://github.com/admiral-io/admiral-community)
 
 ## License
 
