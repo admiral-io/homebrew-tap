@@ -5,13 +5,13 @@
 class Admiral < Formula
   desc "Admiral CLI - Platform Orchestrator"
   homepage "https://admiral.io/"
-  version "0.15.0"
+  version "0.16.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/admiral-io/admiral-cli/releases/download/v0.15.0/admiral-v0.15.0_darwin_x86_64.tar.gz"
-      sha256 "d482019601d6ee3f758a53942beb3a86851ee10da9d27854bce3583f79d6c032"
+      url "https://github.com/admiral-io/admiral-cli/releases/download/v0.16.0/admiral-v0.16.0_darwin_x86_64.tar.gz"
+      sha256 "ead07ba84e8352dd206fe24930bf34001a60b40194509a321f537042bc814343"
 
       define_method(:install) do
         bin.install "admiral"
@@ -21,8 +21,8 @@ class Admiral < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/admiral-io/admiral-cli/releases/download/v0.15.0/admiral-v0.15.0_darwin_arm64.tar.gz"
-      sha256 "e9e4d41b60d49998f2b7e2f1bded3295107a076651de2044335636f03e0aa6bc"
+      url "https://github.com/admiral-io/admiral-cli/releases/download/v0.16.0/admiral-v0.16.0_darwin_arm64.tar.gz"
+      sha256 "2383f9fcd2868a738bbef4662ccb778998fb8f2c674a52711c890e46d044587c"
 
       define_method(:install) do
         bin.install "admiral"
@@ -35,8 +35,8 @@ class Admiral < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/admiral-io/admiral-cli/releases/download/v0.15.0/admiral-v0.15.0_linux_x86_64.tar.gz"
-      sha256 "c1ca69e1334758c794156407bc0e891677d776d213f9552eed10d330e6986ade"
+      url "https://github.com/admiral-io/admiral-cli/releases/download/v0.16.0/admiral-v0.16.0_linux_x86_64.tar.gz"
+      sha256 "952e2550b81012fedaab744f2f8f3a705613d4710fba4567a042d1b2c860e3e0"
       define_method(:install) do
         bin.install "admiral"
         bash_completion.install "completions/admiral.bash" => "admiral"
@@ -45,8 +45,8 @@ class Admiral < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/admiral-io/admiral-cli/releases/download/v0.15.0/admiral-v0.15.0_linux_arm64.tar.gz"
-      sha256 "301bcf6007134272451084528600784222598521ff21b035d6b48ec28681ccd0"
+      url "https://github.com/admiral-io/admiral-cli/releases/download/v0.16.0/admiral-v0.16.0_linux_arm64.tar.gz"
+      sha256 "bab822282cb1e5df5d07adfefed98929c5911d0495f6c6cac64aa98954201c44"
       define_method(:install) do
         bin.install "admiral"
         bash_completion.install "completions/admiral.bash" => "admiral"
